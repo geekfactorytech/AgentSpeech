@@ -113,9 +113,12 @@ $(document).ready(function () {
                 }
             }
             let addNote = (type, number, command) => {
-                let flag = type == 'private' ? false : true,
-                    noteText = command.split('with');
-                console.log(flag);
+                if (type.trim() == 'private') {
+                    flag = true;
+                } else {
+                    flag = false;
+                }
+                let noteText = command.split('with');
                 requestApi({
                     url: `tickets/${number}/notes`,
                     method: "post",
