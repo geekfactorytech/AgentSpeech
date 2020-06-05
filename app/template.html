@@ -23,11 +23,10 @@
     <div class="fw-widget-wrapper">
         <p></p>
         <section class="speech">
-            <fw-label value="Start Recording by hitting Record Button"></fw-label>
+            <fw-label value="Tired of Typing - Click ‘RECORD’ button to create a ticket through your voice"></fw-label>
             <br />
             <div class="speech-bubble">
-                After recording the voice click 'apply' to add the text in editor window.<br>
-                Note : The recorded text will be added in editor window of same ticket.
+                Click ‘APPLY’ when done recording your voice to insert the captured text to the composer in the background ticket.
             </div>
             <textarea class="recordInput" id="apptext"></textarea>
             <fw-button color="secondary" id="btnGiveCommand">
@@ -40,12 +39,15 @@
             <div class="speech-bubble">
                 Commands :<br>
                 <ul>
-                    <li> Get specific ticket using : 'get ticket ticketnumber' eg : get ticket 10.</li>
-                    <li>Get priority based tickets using : priority name priority tickets eg: high priority ticket.</li>
-                    <li>Make a reply to ticket using : reply ticketnumber with "text you want to add reply" eg : reply
-                        10 with This is a sample reply.</li>
-                    <li>Add a note to ticket using : public/private note ticketnumber with "text you want to add reply"
-                        eg : public note 10 with This is a sample note.</li> <br> Note : Text after with will be addes
+                    <li>GET TICKET <YYY “Ticket Number ”> - To get the details of a specific ticket using voice command
+                        Example - To get the details of ticket number 100, use the command - Get Ticket 100.</li>
+                    <li><PRIORITY> Priority Ticket - To get assigned tickets in a specific priority using voice command
+                        Example - To get high priority tickets - High Priority Ticket</li>
+                    <li> REPLY <YYY “Ticket Number ”> WITH “Your text to add in reply” - To reply to a ticket using voice command
+                        Example - To reply to ticket number 100, use command - Reply 100 With I am replying to ticket 100
+                        .</li>
+                    <li>PUBLIC/PRIVATE NOTE <YYY “Ticket Number ”> WITH “Your text to add to note” - To add a note to a ticket using voice command
+                        Example - To add a public note to ticket number 100, use command - Public Note 100 With I am adding public note to ticket 100</li> <br> Note : Text after with will be addes
                     as reply/note
                 </ul>
             </div>
