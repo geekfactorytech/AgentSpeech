@@ -22,5 +22,5 @@ Example - To add a public note to ticket number 100, use command - Public Note 1
 ### User commands 
  Create Ticket - Subject 'subject of ticket' Description 'Description of ticket'.(customer portal)
  ### Technolgies 
- javascript and crayons is enough to create VoiceText .
+ javascript and crayons is enough to create VoiceToText .
  
