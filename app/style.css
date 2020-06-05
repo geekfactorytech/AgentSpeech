@@ -1,0 +1,119 @@
+.logo {
+    background: url('freshdesk_logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+    margin-top: 25px;
+  }
+  .speech{
+      padding: 0px 10px;
+  }
+  .singleTicket {
+    padding: 0px 10px;
+    border-radius: 4px;
+    position: relative;
+}
+.desc, .conv{
+    /* border-top: 1px solid #ebeff3; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+  h4{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #183247;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .singleticket,#details{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #183247;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .text{
+  margin:5px 0px;
+  height: 100px;
+  }
+  .recordInput{
+    /* white-space: nowrap; */
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .ticket-box{
+    box-shadow: 0px 0px 7px #00000029;
+    padding: 10px 10px;
+    width: 98%;
+  }
+  body{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-image: initial;
+    margin: 15px 10px !important;
+    border-radius: 8px;
+  }
+  .padding-block{
+    padding: 0px 10px;
+  }
+  .ticket-name{
+    font-size: 16px;
+  }
+  /* .descConvBox{
+  
+  } */
+  .m-0{
+    margin:0;
+  }
+  
+  .descConvBox {
+    padding: 10px 0;
+    border-top: 2px solid #eceeef;
+    margin-top: 10px;
+    max-height: 130px;
+    overflow-y: scroll;
+  }
+  .conversation,.description{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .descConvBox::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .descConvBox::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .descConvBox::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .descConvBox::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+   
+  }
+  .speech-bubble {
+    position: relative;
+    background: #eee;
+    border-radius: .4em;
+    margin-bottom: 15px;
+    display: table;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .full-page{
+    border:0px solid rgb(177, 177, 177)
+  }
+  .border-block{
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 8px;
+    padding: 10px;
+    margin : 10px;
+  }
+  

@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+    <script type="module" src="https://unpkg.com/@freshworks/crayons/dist/crayons/crayons.esm.js">
+    </script>
+    <script nomodule src="https://unpkg.com/@freshworks/crayons/dist/crayons/crayons.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css">
+</head>
+
+<body>
+    <div class="fw-widget-wrapper">
+        <p></p>
+        <section class="speech">
+            <fw-label value="Start Recording by hitting Record Button"></fw-label>
+            <br />
+            <div class="speech-bubble">
+                After recording the voice click 'apply' to add the text in editor window.<br>
+                Note : The recorded text will be added in editor window of same ticket.
+            </div>
+            <textarea class="recordInput" id="apptext"></textarea>
+            <fw-button color="secondary" id="btnGiveCommand">
+                <fw-icon name="agent"></fw-icon> Record
+            </fw-button>
+            <fw-button color="primary" id="apply"> Apply <fw-icon name="check" color="white"></fw-icon>
+            </fw-button>
+        </section>
+        <section class="padding-block">
+            <div class="speech-bubble">
+                Commands :<br>
+                <ul>
+                    <li> Get specific ticket using : 'get ticket ticketnumber' eg : get ticket 10.</li>
+                    <li>Get priority based tickets using : priority name priority tickets eg: high priority ticket.</li>
+                    <li>Make a reply to ticket using : reply ticketnumber with "text you want to add reply" eg : reply
+                        10 with This is a sample reply.</li>
+                    <li>Add a note to ticket using : public/private note ticketnumber with "text you want to add reply"
+                        eg : public note 10 with This is a sample note.</li> <br> Note : Text after with will be addes
+                    as reply/note
+                </ul>
+            </div>
+            <fw-button color="secondary" id="ticket">
+                <fw-icon name="agent"></fw-icon> Command
+            </fw-button>
+            <p id="details"></p>
+        </section>
+
+        <section class="singleTicket hide">
+            
+        </section>
+        <section class="padding-block hide" id="list">
+        </section>
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>
