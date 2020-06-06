@@ -5,7 +5,7 @@ The app uses voice recognition to help both customers and users ease the flow.
 Users can create tickets through voice from the ticket submission page. 
 
 On the agents side, the app can be accessed in the left bar and an app in the text editor. The app will help agents search for tickets via priority, go directly to a ticket based on ticket ID, reply to a ticket, add a private note or public note to a ticket 
-### Future Scopre 
+### Future Scope 
 1. Get tickets using status .
 2. Get articles using article name.
 3. Creating tickets in agent end 
